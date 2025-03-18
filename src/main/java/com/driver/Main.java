@@ -16,9 +16,13 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("hello world ");
         Product p=new Product();
-        p.product(2,4);
-        p.product(3,4,5);
-        p.product(23.344,45.23);
+        System.out.println(p.product(2,4));
+        System.out.println(p.product(3,4,5));
+        System.out.println(p.product(23.344,45.23));
+
+
+
+
 
     }
 
